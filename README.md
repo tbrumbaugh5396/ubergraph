@@ -52,26 +52,26 @@ You can get the edges in your ubergraph.
 edges = ubergraph.get_edges(u)
 ```
 
-## Get the nodes and edges from a node or edge
+## MAY BE BUGGY: Get the nodes and edges from a node or edge
 
 ```python
-u = get_from(u, node_or_edge)
+froms = get_from(u, node_or_edge)
 ```
 
-## Get the nodes and edges to a node or edge
+## MAY BE BUGGY: Get the nodes and edges to a node or edge
 
 ```python
-u = get_to(u, node_or_edge)
+tos = get_to(u, node_or_edge)
 ```
 
-## Get the edges that a node or edge is in
+## MAY BE BUGGY: Get the edges that a node or edge is in
 
 ```python
-u = get_in_edges(u, node_or_edge)
+in_edges = get_in_edges(u, node_or_edge)
 ```
 
-## Get the edges that is in a node or edge
+## MAY BE BUGGY: Get the edges that is in a node or edge
 
 ```python
-u = get_out_edges(u, node_or_edge)
+out_edges = get_out_edges(u, node_or_edge)
 ```
