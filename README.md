@@ -80,6 +80,6 @@ out_edges = get_out_edges(u, node_or_edge)
 
 Because our ubergraph, u, is a pygraphviz object we can view it by setting the layout (one of https://graphviz.org/docs/layouts/) and then drawing it:
 ```python
-u.layout("circo") # could
+u.layout("circo") # could be other layouts from https://graphviz.org/docs/layouts/
 u.draw("filename.png")
 ```
