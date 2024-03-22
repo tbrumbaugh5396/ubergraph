@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ubergraph"
-version = "0.0.1"
+version = "0.0.2"
 authors = []
 description = "A wrapper around pygraphviz to implement an ubergraph"
 readme = "README.md"
